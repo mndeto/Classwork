@@ -1,4 +1,5 @@
 
+
 import matplotlib.pyplot as plt
 import math
 items=[]
@@ -36,9 +37,12 @@ def findSD(deviation,x,y):
 
 def getItems(noOfitems,items):
 	noOfitems -= 1
-	rem = 3 - noOfitems
-	itms = input("Please enter a (another) Value ")
+	if noOfitems==4:
+		itms = input("Please enter a Value ")
+	else:
+		itms = input("Please enter a another Value ")
 	items.append(itms)
+
 	if noOfitems >0:
 		getItems(noOfitems,items)
 	else:
