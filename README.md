@@ -1,1 +1,1 @@
-# Classwork Exercises for Python
+# Classwork Exercises on Python
